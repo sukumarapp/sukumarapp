@@ -1,6 +1,6 @@
 // client/game.js
 
-const socket = io(https://multiplayer-qren.onrender.com);
+const socket = io();
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 const joinUI = document.getElementById('join-ui');
@@ -173,3 +173,4 @@ function updateScoreboard(players) {
 
 
 draw();
+
