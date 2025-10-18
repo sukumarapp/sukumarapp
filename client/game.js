@@ -29,7 +29,7 @@ let animationFrameId = null; // To store the ID of the requestAnimationFrame
 
 const backgroundMusic = new Audio('assets/audio/background_music.mp3');
 backgroundMusic.loop = true;
-backgroundMusic.volume = 0.2;
+backgroundMusic.volume = 0.1;
 let isMuted = false;
 
 const powerUpCollectSound = new Audio('assets/audio/powerup_collect.mp3');
@@ -399,4 +399,5 @@ function updateScoreboard(players) {
 }
 
 // Initial draw call in case the game loop hasn't started
+
 draw();
